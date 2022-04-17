@@ -7,9 +7,21 @@ body {
   font-size: 1em;
 }
 
+.soldOut {
+  position: absolute;
+  top: 5em;
+  right: 0px;
+  height: 6em;
+  width: 9em;
+}
+
 .card {
   text-align: center;
-  margin: 1em;
+  margin: 2em;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 10px 10px 21px #4567a4, -10px -10px 21px #83c3ff;
+  box-shadow: 10px 10px 21px #4567a4, -10px -10px 21px #83c3ff;
 }
 
 .card-body {
@@ -31,6 +43,7 @@ p {
 }
 
 h2 {
+  font-family: 'Libre Baskerville', serif;
   font-size: 1.5em;
 }
 
