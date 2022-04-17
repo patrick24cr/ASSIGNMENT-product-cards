@@ -1,0 +1,62 @@
+body {
+  background-color: cornflowerblue;
+}
+
+.card-header {
+  border: solid 2px lightblue;
+  font-size: 1em;
+}
+
+.card {
+  text-align: center;
+  margin: 1em;
+}
+
+.card-body {
+  padding: 0em;
+}
+
+p {
+  padding: 0.5em;
+  text-align: left;
+}
+
+.card-footer {
+  border: none;
+}
+
+.availability {
+  background-color: rgb(48, 48, 125);
+  color: gold;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+.info-div {
+  padding-top: 0.5em;
+  padding-left: 1em;
+  padding-bottom: 0.5em;
+}
+
+.specs-title {
+  font-size: 1em;
+  font-weight: bold;
+  text-align: left;
+}
+
+.specs-expiration {
+  font-size: 0.8em;
+}
+
+.specs {
+  text-align: left;
+  padding-left: 1em;
+  font-size: 0.9em;
+}
+
+.flexContainer {
+  display: flex;
+  flex-flow: row wrap;
+}
